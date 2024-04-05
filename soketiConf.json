@@ -1,0 +1,24 @@
+{
+    "debug": true,
+    "port": 6001,
+    "appManager.array.apps": [
+        {
+            "id": "some-id",
+            "key": "some-key",
+            "secret": "some-secret",
+            "enabled": true,
+            "enableClientMessages": true,
+            "webhooks": [],
+            "maxBackendEventsPerSecond": -1,
+            "maxClientEventsPerSecond": -1,
+            "maxReadRequestsPerSecond": -1,
+            "maxPresenceMembersPerChannel": 10000,
+            "maxPresenceMemberSizeInKb": 200,
+            "maxChannelNameLength": 2000,
+            "maxEventChannelsAtOnce": 1000,
+            "maxEventNameLength": 1000,
+            "maxEventPayloadInKb": 400,
+            "maxEventBatchSize": 1000
+        }
+    ]
+}
